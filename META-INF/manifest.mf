@@ -1,0 +1,82 @@
+Manifest-Version: 1.0
+
+Name: manifest.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fLbQyXlhVzxWd+RbcbCPZw==
+SHA1-Digest: PhVjBLMuwpfJwZVo9K75+xMH41k=
+
+Name: .idea/MAL Updater.iml
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6KhR9uv4ORnGwfhNcqrXqg==
+SHA1-Digest: QkDavcdGo2uuilbu7ASjo/xZ2EI=
+
+Name: .idea/modules.xml
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: X8Tf08nLwdYjjBAMMN8jOg==
+SHA1-Digest: AVYF+VXQlK+hb7eonuWqrXea2Lc=
+
+Name: .idea/workspace.xml
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9gLp2vESS4G/e7JEeUHwzQ==
+SHA1-Digest: 1DZvSu/jU2gE53sb0GHgX+Esf4g=
+
+Name: background_scripts/messageHandler.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iiAlsZL0xQ5eD8K+ykFArg==
+SHA1-Digest: Jdl223cIvji3ZgLebnxmYSzsb6g=
+
+Name: content_scripts/addMALIcon.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ChMn/e6nbUVyXM4j61Mz2Q==
+SHA1-Digest: aog0RFzwrwErBlSGqWNNWsOHdPo=
+
+Name: content_scripts/dom.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jCr7+U4VPUP0eStaESDRoQ==
+SHA1-Digest: 53++qCg6bTSyvoeQ/cRAKHvPeNc=
+
+Name: content_scripts/inputFrame.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UQD+F9bptxL1ODerwj2zrA==
+SHA1-Digest: ZQePPgv5pQeNJWZX3LVgNuXgNfc=
+
+Name: content_scripts/inputFrameScript.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: owtIEZL9hleEuzGfUD6RWQ==
+SHA1-Digest: dwZt6dNrcqvWdgJZr+KnVzKw5Tk=
+
+Name: content_scripts/manualFrame.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RCBLEkwS2aw7gLkbZBhNPQ==
+SHA1-Digest: yLTSM9JynmqJHdnXYHv0C9CpdDw=
+
+Name: content_scripts/manualFrameScript.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: y+My2IH/7aG3gHhGPr+qOA==
+SHA1-Digest: kGdy8lhPR8yJdGh9e55twjCWPzI=
+
+Name: icons/mal-favi.ico
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aR+7QVdYJBwpW8Ip67OHPg==
+SHA1-Digest: CayFfA+hopj9BcbKM0cmgqsnfSM=
+
+Name: icons/malU.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Rsh0CpKEAGrMG4nAFQTztg==
+SHA1-Digest: 6cgzvzEMXqaGtacULiOJa3TKygs=
+
+Name: icons/plus.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WbGnd/wkXbdf0thEWEKyMw==
+SHA1-Digest: 9Qgzyag6Qgoki7qTjsvRkFmSyng=
+
+Name: options/options.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: k5xAm+dIcsnxt/9VM7cNZA==
+SHA1-Digest: /dT3uNFkrpBl/ByER/VjKIyUV/o=
+
+Name: options/options.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BmufZufAXphXJyCOmBAwTg==
+SHA1-Digest: YqyRI5TFJqn7WqTWzWLRhM7MA4Y=
+

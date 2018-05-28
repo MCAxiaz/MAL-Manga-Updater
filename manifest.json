@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+  "name": "MAL MUpdate",
+  "version": "1.6",
+
+  "applications": {
+    "gecko": {
+      "id": "{3dd87e3d-bccb-4301-ad9a-c0a4a57697c4}"
+    }
+  },
+
+  "description": "Updates MAL Manga List",
+  "icons": {
+    "48": "icons/malU.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://bato.to/comic/_/comics/*"],
+      "js": ["content_scripts/addMALIcon.js"],
+      "css": ["content_scripts/dom.css"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "permissions": [
+    "https://myanimelist.net/*",
+    "activeTab",
+    "storage"
+  ],
+
+  "background": {
+    "scripts": ["background_scripts/messageHandler.js"]
+  },
+
+  "options_ui": {
+    "page": "options/options.html"
+  },
+
+  "web_accessible_resources": [
+    "icons/mal-favi.ico",
+    "icons/malU.png",
+    "icons/plus.png",
+    "content_scripts/inputFrame.html",
+    "content_scripts/inputFrameScript.js",
+    "content_scripts/manualFrame.html",
+    "content_scripts/manualFrameScript.js"
+  ]
+
+}

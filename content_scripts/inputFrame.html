@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ID</title>
+    <script type="text/javascript" src="inputFrameScript.js"></script>
+</head>
+
+<body>
+
+
+    <form id="sub-form">
+        <table width="100%">
+            <tr>
+                <th>
+                    <input id="sub-submit" type="submit" value="Incorrect ID">
+                </th>
+            </tr>
+        </table>
+    </form>
+    <form id="main-form">
+        <table width="100%">
+            <tr>
+                <th colspan="2" style="padding-bottom:1em">
+                    <a id="link-to-mal" href="http://www.google.ca" target="_blank" style="text-decoration:none">Title</a>
+                </th>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td>
+                    <select id="select_manga_status" name="status">
+                        <option id="0" value="0">Not Reading</option>
+                        <option id="1" value="1">Reading</option>
+                        <option id="2" value="2">Completed</option>
+                        <option id="3" value="3">On-Hold</option>
+                        <option id="4" value="4">Dropped</option>
+                        <option id="6" value="6">Plan to Read</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Chapters Read</td>
+                <td>
+                    <input id="chapters_read" size="3" value="0" name="chapter">
+                    <span id="total_chapters">/0</span>
+                    <img id="plus_one" src="../icons/plus.png" style="cursor: pointer">
+
+                </td>
+            </tr>
+            <tr>
+                <td>Your Score</td>
+                <td>
+                    <input id="score" size="3" value="0" name="score">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" style="padding-top:1em">
+                    <input id="submit" type="submit" value="OK">
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
